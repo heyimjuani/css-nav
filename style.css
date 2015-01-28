@@ -108,7 +108,16 @@ nav {
 
 section {
   width: 75%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 60px 0; }
+  section .source {
+    background: #0099cc;
+    color: #fff;
+    border-radius:4px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
   section ul { padding: 0;}
   section li {
     list-style: none; }
@@ -125,7 +134,10 @@ section {
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
       width: 200px;
       border-radius: 2px;
-      padding: 5px 0px; }
+      padding: 5px 0px;
+      position: absolute;
+      top: 30px;
+      left: 0;}
       section .button ul li a {
         padding: 5px 15px;
         display: block;
